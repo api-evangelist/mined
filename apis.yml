@@ -1,4 +1,16 @@
 aid: mined
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mined.png
 name: Mine'd
 description: Mine'd is a company surfaced as a portfolio company of techstars and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-site-status: parked
+x-site-status-note: 'doyoumined.com resolves to a GoDaddy/wsimg parking-lander (every
+  path JS-redirects to /lander and returns the same stub). No live website, API,
+  docs, well-known, OpenAPI, or llms.txt surface exists as of 2026-07-20. GoDaddy
+  nameservers (ns05/ns06.domaincontrol.com); MX still points at Google Workspace.
+  Treated as a defunct/lapsed lead; no artifacts could be searched, generated, or
+  faithfully derived.'
 tags:
 - Company
 apis: []
@@ -23,3 +42,8 @@ maintainers:
 common:
 - type: Website
   url: https://doyoumined.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
